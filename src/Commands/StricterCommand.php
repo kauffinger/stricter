@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Kauffinger\Stricter\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class StricterCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'stricter';
 
     public $description = 'My command';
 

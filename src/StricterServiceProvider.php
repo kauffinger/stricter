@@ -2,9 +2,9 @@
 
 namespace Kauffinger\Stricter;
 
+use Kauffinger\Stricter\Commands\StricterCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Kauffinger\Stricter\Commands\StricterCommand;
 
 class StricterServiceProvider extends PackageServiceProvider
 {

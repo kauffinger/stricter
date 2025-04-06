@@ -4,11 +4,11 @@ namespace Kauffinger\Stricter\Commands;
 
 use Illuminate\Console\Command;
 
-class StricterCommand extends Command
+class MakeApplicationStricterCommand extends Command
 {
-    public $signature = 'stricter';
+    public $signature = 'stricter:setup';
 
-    public $description = 'My command';
+    public $description = 'Make your application stricter';
 
     public function handle(): int
     {
